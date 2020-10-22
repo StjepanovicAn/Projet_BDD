@@ -1,0 +1,12 @@
+doctor1 = Doctor.create(first_name: "Robert", last_name: "Krakowitz", zip_code: "75018")
+doctor2 = Doctor.create(first_name: "Jean", last_name: "Pépéroni", zip_code: "78400")
+
+
+patient1 = Patient.create(first_name: "Carla", last_name: "Poiré")
+patient2 = Patient.create(first_name: "Mickel", last_name: "Grütfinde")
+
+city1 = City.create(name: "Paris")
+city2 = City.create(name: "Chatou")
+
+rdv1 = Appointment.create(date: "20211012123000")
+rdv2 = Appointment.create(date: "20210201163000")
